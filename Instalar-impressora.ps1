@@ -57,16 +57,16 @@ function Install-DriverFromInf {
     if ($FabricanteUpper -eq "RICOH") {
 
         if ($DriverFolder -match "SP377") {
-            $InfName = "RXE6E.INF"
+            $InfName = "Exemplo"
         }
         elseif ($DriverFolder -match "M320F") {
-            $InfName = "GXE6T.INF"
+            $InfName = "Exemplo"
         }
     }
     elseif ($FabricanteUpper -eq "BROTHER") {
 
         if ($DriverFolder -match "DCP-L2540DW") {
-            $InfName = "BRPRM13A.INF"
+            $InfName = "Exemplo"
         }
     }
 
